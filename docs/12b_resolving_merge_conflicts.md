@@ -21,9 +21,9 @@ If it's difficult to practice with a partner, you can do that alone by following
 
 1. In our class repository, confirm the branch you are in is `main`.
 1. Create a branch and name it as `USERNAME-modify-first`.
-1. In the `USERNAME-modify-first` branch, edit your file `a/b/c/blabla.md` and commit it.
+1. In the `USERNAME-modify-first` branch, edit your file `a/b/c/blabla.md` and commit then push.
 1. **Change the branch to `main` again**, create a second branch and name it as `USERNAME-modify-conflict`.
-1. In the `USERNAME-modify-conflict` branch, edit your file with a different string on the same line as the previous step and commit it.
+1. In the `USERNAME-modify-conflict` branch, edit your file with a different string on the same line as the previous step and commit then push.
    - Make sure the content inside of the file is different, and that neither file is empty.
 1. Create a pull request in the class repository with `base: main` and `compare: USERNAME-modify-first`. (title: `USERNAME merge first`)
 1. Create a pull request in the class repository with `base: main` and `compare: USERNAME-modify-conflict`. (title: `USERNAME resolve conflict`)
