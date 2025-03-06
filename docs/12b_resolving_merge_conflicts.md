@@ -59,14 +59,14 @@ If it's difficult to practice with a partner, you can do that alone by following
 
       ```sh
       # Open the file on Visual Studio Code
-      code _slides/##-USERNAME.md
+      code a/b/c/blabla.md
       ```
 
    1. Both branches' versions of code are present - pick which one you want to keep, and save the changes.
    1. Add and commit the saved changes to resolve the merge conflict.
 
       ```sh
-      git add _slides/##-USERNAME.md
+      git add a/b/c/blabla.md
       git commit
       ```
 
