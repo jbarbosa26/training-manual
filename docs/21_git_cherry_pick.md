@@ -1,6 +1,6 @@
 ## Getting it back: `git cherry-pick`
 
-We just learned how reflog can help us find local changes that have been discarded. So what if:
+So what if:
 
 ### You just want that one commit
 
