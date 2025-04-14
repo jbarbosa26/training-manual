@@ -25,7 +25,7 @@
   - [Cherry Picking](21_git_cherry_pick.md)
   - [Merge Strategies](22_merge_strategies_rebase.md)
 
-- Project 4: GitHub Games
+- Project 4: Simple Game & More
   - [Workflow Review](13_workflow_review_project_github_games.md)
   - [Protected Branches & CODEOWNERS](17_protected_branches.md)
   - [Git Bisect](14_git_bisect.md)
