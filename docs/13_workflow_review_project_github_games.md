@@ -10,7 +10,7 @@ If you're using the Fork and Pull Workflow, [don't forget to look in the appendi
 
 Now you will practice the GitHub Flow from beginning to end by updating the link in the README to point to your fork of the repository.
 
-> Remember, your copy of the website will be rendered at `https://lacodph.github.io/github-games-USERNAME` once published as a GitHub Page like at https://jbarbosa-school.github.io/github-games-jbarbosa26/.
+> Remember, your copy of the website will be rendered at `https://lacodph.github.io/github-games-USERNAME` once published as a GitHub Page like at [https://jbarbosa-school.github.io/github-games-jbarbosa26/](https://lacodph.github.io/github-games/).
 >
 > This link also appears in the repository description. It is a good idea to edit the website URL in the description, so you can easily access your game.
 >
