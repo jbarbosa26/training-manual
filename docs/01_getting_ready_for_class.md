@@ -61,14 +61,14 @@ Now is a good time to create a shortcut to the command-line application you will
 Open your chosen shell, and type:
 
 ```sh
-git clone https://github.com/githubschool/scratch.git
+git clone https://github.com/jbarbosa-lcra/githubschool.git
 ```
 
 If the clone is successful you'll see:
 
 ```shell-session
-$ git clone https://github.com/githubschool/scratch
-Cloning into 'scratch'...
+$ git clone https://github.com/jbarbosa-lcra/githubschool
+Cloning into 'githubschool'...
 remote: Counting objects: 6, done.
 remote: Compressing objects: 100% (2/2), done.
 remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
