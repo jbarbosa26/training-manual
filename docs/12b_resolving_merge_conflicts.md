@@ -58,15 +58,15 @@ If it's difficult to practice with a partner, you can do that alone by following
    1. Open that file in your text editor, and look for the merge conflict markers. (`<<<<<<<`, `=======`, `>>>>>>>`)
 
       ```sh
-      # Open the file on Visual Studio Code
-      code a/b/c/blabla.md
+      # Open the file in Visual Studio Code or you may use notepad or vim in place of "code" to use notepad or vim
+      code _slides/##-USERNAME.md
       ```
 
    1. Both branches' versions of code are present - pick which one you want to keep, and save the changes.
    1. Add and commit the saved changes to resolve the merge conflict.
 
       ```sh
-      git add a/b/c/blabla.md
+      git add _slides/##-USERNAME.md
       git commit
       ```
 

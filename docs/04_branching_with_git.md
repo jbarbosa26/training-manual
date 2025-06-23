@@ -16,4 +16,5 @@ Let's learn how you can create a new branch.
 
 Here are some interesting things you can check out later:
 
-- [A GitHub Training Video on branching](https://youtu.be/H5GJfcp3p4Q)
+- *[learngitbranching.js.org/](https://learngitbranching.js.org/)* Interactive JS site to learn Git branching and more.
+- *[learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/](https://learn.microsoft.com/en-us/training/modules/manage-git-branches-workflows/)* MS Learn page for branch strategies and workflows.
