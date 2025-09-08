@@ -61,13 +61,13 @@ Now is a good time to create a shortcut to the command-line application you will
 Open your chosen shell, and type:
 
 ```sh
-git clone https://github.com/gh-nondevelopers/githubschool.git
+git clone https://github.com/LCRA-Developers/githubschool.git
 ```
 
 If the clone is successful you'll see:
 
 ```shell-session
-$ git clone https://github.com/gh-nondevelopers/githubschool
+$ git clone https://github.com/LCRA-Developers/githubschool
 Cloning into 'githubschool'...
 remote: Counting objects: 6, done.
 remote: Compressing objects: 100% (2/2), done.
