@@ -171,4 +171,4 @@ GitHub Pages enable you to host free, static web pages directly from your GitHub
 
 - You can create two types of websites, a user/organization site or a project site. We will be working with project websites.
 - For a project site, GitHub will only serve content from a specified branch. You can also choose to publish your site from a `/docs` folder on the specified branch.
-- The rendered sites for our projects will appear at `LCRA-Developers.github.io/repo-name`.
+- The rendered sites for our projects will appear at `SHSU-Developers.github.io/repo-name`.

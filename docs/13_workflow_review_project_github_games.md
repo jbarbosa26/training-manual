@@ -2,7 +2,7 @@
 
 In this section, we will work on a project repository called `github-games`.
 
-A `github-games` repository will be created for you in the githubschool organization. You can access the repository at `https://github.com/LCRA-Developers/github-games-USERNAME`.
+A `github-games` repository will be created for you in the githubschool organization. You can access the repository at `https://github.com/SHSU-Developers/github-games-USERNAME`.
 
 If you're using the Fork and Pull Workflow, [don't forget to look in the appendix for a more thorough explanation](app_fork_workflow.md).
 
@@ -10,7 +10,7 @@ If you're using the Fork and Pull Workflow, [don't forget to look in the appendi
 
 Now you will practice the GitHub Flow from beginning to end by updating the link in the README to point to your fork of the repository.
 
-> Remember, your copy of the website will be rendered at `https://LCRA-Developers.github.io/github-games-USERNAME` once published as a GitHub Page like at [https://LCRA-Developers.github.io/github-games-jbarbosa26/](https://LCRA-Developers.github.io/github-games-jbarbosa26/).
+> Remember, your copy of the website will be rendered at `https://SHSU-Developers.github.io/github-games-USERNAME` once published as a GitHub Page like at [https://SHSU-Developers.github.io/github-games-jbarbosa26/](https://SHSU-Developers.github.io/github-games-jbarbosa26/).
 >
 > This link also appears in the repository description. It is a good idea to edit the website URL in the description, so you can easily access your game.
 >
@@ -18,7 +18,7 @@ Now you will practice the GitHub Flow from beginning to end by updating the link
 
 Since this is a review, we have written these steps at a high level. As we complete the review, we will show you a few shortcuts for the commands you learned in the previous activity:
 
-1. Clone your copy of the repository: `git clone https://github.com/LCRA-Developers/github-games-USERNAME.git`
+1. Clone your copy of the repository: `git clone https://github.com/SHSU-Developers/github-games-USERNAME.git`
 1. Create a new branch called `readme-update`: `git switch -c readme-update`
 1. Edit the URL in the README.md.
 1. Commit the changes to your branch.
