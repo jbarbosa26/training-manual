@@ -17,6 +17,7 @@ Since we will be using this as our practice repository, we need to generate some
 ```bash
 for d in {1..6}; do touch "file${d}.md"; git add "file${d}.md"; git commit -m "adding file ${d}"; done
 ```
+> For anyone seeing an issue running with the `touch` instruction on command prompt, try `echo >` instead.
 
 **PowerShell:**
 
