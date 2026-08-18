@@ -20,4 +20,4 @@ Follow these steps to create an issue in the class repository:
    - [ ] Merge the Pull Request
    ```
 
-1. Click the *Submit new issue* button to open your issue.
+1. Click the *Create* button to open your issue.
