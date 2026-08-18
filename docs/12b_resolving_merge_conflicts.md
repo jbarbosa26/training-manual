@@ -1,6 +1,6 @@
-### Resolving a merge conflict
+### 🔓 Resolving a ⚔️ merge conflict
 
-~~Let's try to create a merge conflict, and fix it together. You and a partner will each create separate branches, create a file with the same name, and then try to merge. The first will merge cleanly, the second will have a merge conflict. Work together to resolve the merge conflict.~~
+~~Let's try to ✨ create a ⚔️ merge conflict, and fix it together. You and a partner will each ✨ create separate 🌿 branches, ✨ create a 📄 file with the same name, and then try to 🔗 merge. The first will 🔗 merge cleanly, the second will have a ⚔️ merge conflict. Work together to resolve the ⚔️ merge conflict.~~
 
 ~~1. In our class repository, create the branch that you will be working on and name it something memorable like `USERNAME-conflict`.~~
 ~~1. Choose a file that both you and your partner will edit. (One of your files from earlier would work well.) On your branch, edit that file. The filename must be the same filename that your partner uses. Make sure the content inside the file is different, and that neither file is empty.~~
@@ -15,15 +15,15 @@
     1. Push the feature branch up to the remote, and see the resolution in the pull request.~~
 ~~1. Merge the pull request.~~
 
-### Resolving a Merge Conflict (practice alone)
+### 🔓 Resolving a ⚔️ Merge Conflict (�찒 practice alone)
 
 If it's difficult to practice with a partner, you can do that alone by following below.
 
-1. In our class repository, confirm the branch you are in is `main`.
-1. Create a branch and name it as `USERNAME-modify-first`.
-1. In the `USERNAME-modify-first` branch, edit your file `_slides/##-USERNAME.md` and commit then push.
-1. **Change the branch to `main` again**, create a second branch and name it as `USERNAME-modify-conflict`.
-1. In the `USERNAME-modify-conflict` branch, edit your file with a different string on the same line as the previous step and commit then push.
+1. In our class repository, confirm the 🌿 branch you are in is `main`.
+1. ✨ Create a 🌿 branch and name it as `USERNAME-modify-first`.
+1. In the `USERNAME-modify-first` 🌿 branch, edit your 📄 file `_slides/##-USERNAME.md` and 📦 commit then 🚀 push.
+1. **Change the 🌿 branch to `main` again**, ✨ create a second 🌿 branch and name it as `USERNAME-modify-conflict`.
+1. In the `USERNAME-modify-conflict` 🌿 branch, edit your 📄 file with a different string on the same line as the previous step and 📦 commit then 🚀 push.
    - Make sure the content inside of the file is different, and that neither file is empty.
 1. Create a pull request in the class repository with `base: main` and `compare: USERNAME-modify-first`. (title: `USERNAME merge first`)
 1. Create a pull request in the class repository with `base: main` and `compare: USERNAME-modify-conflict`. (title: `USERNAME resolve conflict`)

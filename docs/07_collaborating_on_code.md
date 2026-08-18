@@ -1,57 +1,57 @@
-## Collaborating on your code
+## 🤝 Collaborating on your 💾 code
 
-Now that you have made some changes in the project locally, let's learn how to push your changes back to the shared class repository for collaboration.
+Now that you have made some ⚡ changes in the project locally, let's learn how to 🚀 push your ⚡ changes back to the shared class repository for 🤝 collaboration.
 
-### Pushing your changes to GitHub
+### 🚀 Pushing your ⚡ changes to 🐙 GitHub
 
-![Pushing to GitHub](./img/push-pull.png)
+![🚀 Pushing to 🐙 GitHub](./img/push-pull.png)
 
-In this case, our remote is GitHub.com, but this could also be your company's internal instance of GitHub Enterprise.
+In this case, our remote is 🐙 GitHub.com, but this could also be your company's internal instance of 🐙 GitHub Enterprise.
 
-To push your changes to GitHub, you will use the command:
+To 🚀 push your ⚡ changes to 🐙 GitHub, you will use the command:
 
 ```sh
-git push
+🌳 git push
 ```
 
-> When you push, you will be asked to enter your GitHub username and password. If you would like Git to remember your credentials on this computer, you can cache your credentials using:
+> When you 🚀 push, you will be asked to enter your 🐙 GitHub username and password. If you would like 🌳 Git to remember your credentials on this computer, you can cache your credentials using:
 
 - Windows: `git config --global credential.helper wincred`
 - Mac: `git config --global credential.helper osxkeychain`
 
 [include](07a_activity_create_pull_request.md ':include')
 
-### Exploring a pull request
+### 🔍 Exploring a 🔄 pull request
 
-Now that we have created a Pull Request, let's explore a few of the features that make Pull Requests the center of collaboration:
+Now that we have ✨ created a 🔄 Pull Request, let's explore a few of the features that make 🔄 Pull Requests the center of 🤝 collaboration:
 
-#### ![octicon-comment-discussion] Conversation tab
+#### ![octicon-comment-discussion] 🗣️ Conversation tab
 
-Similar to the discussion thread on an Issue, a Pull Request contains a discussion about the changes being made to the repository. This discussion is found in the **Conversation** tab and also includes a record of all the commits made on the branch as well as assignments, labels and reviews that have been applied to the pull request.
+Similar to the discussion thread on an Issue, a 🔄 Pull Request contains a discussion about the ⚡ changes being made to the repository. This discussion is found in the **🗣️ Conversation** tab and also includes a record of all the 📦 commits made on the 🌿 branch as well as assignments, labels and reviews that have been applied to the 🔄 pull request.
 
-#### ![octicon-git-commit] Commits tab
+#### ![octicon-git-commit] 📦 Commits tab
 
-The **Commits** tab contains more detailed information about who has made changes to the files. Clicking each commit ID will allow you to see the changes applied in that specific commit.
+The **📦 Commits** tab contains more detailed information about who has made ⚡ changes to the 📄 files. Clicking each 📦 commit ID will allow you to see the ⚡ changes applied in that specific 📦 commit.
 
-#### ![octicon-diff] Files changed tab
+#### ![octicon-diff] ⚡ Files changed tab
 
-The **Files changed** tab allows you to see cumulative effect of all the changes made on the branch. We call this the `diff`. Our diff isn't very interesting yet, but as we make changes your diff will become very colorful.
+The **⚡ Files changed** tab allows you to see cumulative effect of all the ⚡ changes made on the 🌿 branch. We call this the `diff`. Our diff isn't very interesting yet, but as we make ⚡ changes your diff will become very colorful 🌈.
 
-### Code review in pull requests
+### 👀 Code review in 🔄 pull requests
 
-To provide feedback on proposed changes, GitHub offers three levels of commenting:
+To provide feedback on proposed ⚡ changes, 🐙 GitHub offers three levels of commenting:
 
-#### General conversation
+#### 🗣️ General conversation
 
-You can provide general comments on the Pull Request within the **Conversation** tab.
+You can provide general comments on the 🔄 Pull Request within the **🗣️ Conversation** tab.
 
-#### Line comments
+#### 😎 Line comments
 
-In the **Files changed** tab, you can hover over a line to see a blue ![`+`][octicon-diff-added] icon. Clicking this icon will allow you to enter a comment on a specific line. These line level comments are a great way to give additional context on recommended changes. They will also be displayed in the **Conversation** tab.
+In the **⚡ Files changed** tab, you can hover over a line to see a blue ![`+`][octicon-diff-added] icon. Clicking this icon will allow you to enter a comment on a specific line. These line level comments are a great way to give additional context on recommended ⚡ changes. They will also be displayed in the **🗣️ Conversation** tab.
 
-#### Review
+#### ✅ Review
 
-When you are making line comments, you can also choose to **Start a Review**. When you create a review, you can group many line comments together with a general message: Comments, Approve, or Request Changes. Reviews have special power in GitHub when used in conjunction with protected branches.
+When you are making line comments, you can also choose to **Start a ✅ Review**. When you ✨ create a ✅ review, you can group many line comments together with a general message: 🗣️ Comments, ✅ Approve, or ⚠️ Request 💥 Changes. ✅ Reviews have special power in 🐙 GitHub when used in conjunction with protected 🌿 branches.
 
 ### Activity: Code review
 

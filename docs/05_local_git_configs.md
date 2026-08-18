@@ -1,44 +1,44 @@
-## Local Git configuration
+## 💱 Local 🌳 Git configuration
 
-In this section, we will prepare your local environment to work with Git.
+In this section, we will prepare your local environment to work with 🌳 Git.
 
-### Checking your Git version
+### 🔍 Checking your 🌳 Git version
 
-First, let's confirm your [Git Installation](https://git-scm.com/downloads):
+First, let's confirm your [🌳 Git Installation](https://git-scm.com/downloads):
 
 ```sh
 git version
 ```
 
-If Git is installed, it will return your version: `git version 2.33.1`.
+If 🌳 Git is installed, it will return your version: `git version 2.33.1`.
 
-If you do not see a Git version listed or this command returns an error, you may need to install Git.
+If you do not see a 🌳 Git version listed or this command returns an error, you may need to install 🌳 Git.
 
-> To get the latest version of Git, visit [www.git-scm.com](https://www.git-scm.com).
+> To get the latest version of 🌳 Git, visit [www.git-scm.com](https://www.git-scm.com).
 
-### Git configuration levels
+### 🐝 🌳 Git configuration levels
 
 ![Git Configuration Levels](./img/config-levels.png)
 
-Git allows you to set configuration options at three different levels.
+🌳 Git allows you to set configuration options at three different levels.
 
 #### --system
 
-These are system-wide configurations. They apply to all users on this computer.
+These are system-wide configurations. They apply to all 👥 users on this computer.
 
 #### --global
 
-These are the user level configurations. They only apply to your user account.
+These are the 👨‍💻 user level configurations. They only apply to your 👨‍💻 user account.
 
 #### --local
 
 These are the repository level configurations. They only apply to the specific repository where they are set.
 
-> The default value for git config is `--local`.
+> The default value for 🌳 git config is `--local`.
 
-### Viewing your configurations
+### 🔍 Viewing your configurations
 
-If you would like to see which config settings have been added automatically, you can type `git config --list`. This will automatically read from each of the three config files and list the setting they contain.
+If you would like to see which config settings have been added automatically, you can type `git config --list`. This will automatically read from each of the three config 📄 files and list the setting they contain.
 
 ```sh
 git config --list
