@@ -1,12 +1,12 @@
-# Streamlining your workflow with aliases
+# 🚀 Streamlining your workflow with aliases
 
-So far we have learned quite a few commands. Some, like the log commands, can be long and tedious to type. In this section, you will learn how to create custom shortcuts for Git commands.
+So far we have learned quite a few commands. Some, like the 👀 log commands, can be long and tedious to type. In this section, you will learn how to ✨ create custom shortcuts for 🌳 Git commands.
 
-## Creating custom aliases
+## ✨ Creating custom aliases
 
 An alias allows you to type a shortened command to represent a long string on the command line.
 
-For example, let's create an alias for the log command we learned earlier.
+For example, let's ✨ create an alias for the 👀 log command we learned earlier.
 
 ### Original command
 
@@ -14,7 +14,7 @@ For example, let's create an alias for the log command we learned earlier.
 git log --oneline --graph --decorate --all
 ```
 
-### Creating the alias
+### ✨ Creating the alias
 
 ```sh
 git config --global alias.lol "log --oneline --graph --decorate --all"
@@ -26,11 +26,11 @@ git config --global alias.lol "log --oneline --graph --decorate --all"
 git lol
 ```
 
-## Explore other helpful aliases
+## 🔍 Explore other helpful aliases
 
 Check out these resources for a list of common aliases:
 
-- *[git-scm.com/book/en/v2/Git-Basics-Git-Aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)* A helpful overview of some of the most common git aliases.
+- *[git-scm.com/book/en/v2/Git-Basics-Git-Aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)* A helpful overview of some of the most common 🌳 git aliases.
 
 We also encourage you to read through these three blog posts by GitHub developer Phil Hack. His tips are referenced throughout the manual.
 

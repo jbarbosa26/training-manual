@@ -1,63 +1,63 @@
-## Merge strategies: Rebase
+## 🔗 ♻️ Merge strategies: Rebase
 
-In this section, we will discuss another popular merge strategy, rebasing.
+In this section, we will discuss another popular 🔗 merge strategy, rebasing.
 
-### Understanding Git merge strategies
+### 👀 Understanding 🌳 Git 🔗 merge strategies
 
-Git uses three primary merge strategies:
+🌳 Git uses three primary 🔗 merge strategies:
 
-#### Fast-forward
+#### 🚀 Fast-forward
 
-A fast-forward merge assumes that no changes have been made on the base branch since the feature branch was created. This means that the branch pointer for base can simply be "fast forwarded" to point to the same commit as the feature branch.
+A 🚀 fast-forward 🔗 merge assumes that no ⚡ changes have been made on the base 🌿 branch since the ✨ feature 🌿 branch was ✨ created. This means that the 🌿 branch pointer for base can simply be "🚀 fast forwarded" to point to the same 📦 commit as the ✨ feature 🌿 branch.
 
-#### Recursive
+#### 🔁 Recursive
 
-A recursive merge means that changes have been made on both the base branch and the feature branch and git needs to recursively combine them. With a recursive merge, a new "merge commit" is made to mark the point in time when the two branches came together. This merge commit is special because it has more than one parent.
+A 🔁 recursive 🔗 merge means that ⚡ changes have been made on both the base 🌿 branch and the ✨ feature 🌿 branch and 🌳 git needs to 🔁 recursively combine them. With a 🔁 recursive 🔗 merge, a new "🔗 merge 📦 commit" is made to mark the point in time when the two 🌿 branches came together. This 🔗 merge 📦 commit is special because it has more than one parent.
 
-#### Octopus
+#### 🐙 Octopus
 
-A merge of 3 or more branches is an octopus merge. This will also create a merge commit with multiple parents.
+A 🔗 merge of 3 or more 🌿 branches is an 🐙 octopus 🔗 merge. This will also ✨ create a 🔗 merge 📦 commit with multiple parents.
 
-### About Git rebase
+### About 🌳 Git ♻️ rebase
 
-`git rebase` enables you to modify your commit history in a variety of ways. For example, you can use it to reorder commits, edit them, squash multiple commits into one, and much more.
+`git ♻️ rebase` enables you to modify your 📦 commit 📚 history in a variety of ways. For example, you can use it to reorder 📦 commits, edit them, squash multiple 📦 commits into one, and much more.
 
-To enable all of this, `rebase` comes in several forms. For today's class, we'll be using interactive rebase: `git rebase --interactive`, or `git rebase -i` for short.
+To enable all of this, `♻️ rebase` comes in several forms. For today's class, we'll be using interactive ♻️ rebase: `git ♻️ rebase --interactive`, or `git ♻️ rebase -i` for short.
 
-Typically, you would use `git rebase -i` to:
+Typically, you would use `git ♻️ rebase -i` to:
 
-- Replay one branch on top of another branch
-- Edit previous commit messages
-- Combine multiple commits into one
-- Delete or revert commits that are no longer necessary
+- Replay one 🌿 branch on top of another 🌿 branch
+- Edit previous 📦 commit messages
+- Combine multiple 📦 commits into one
+- Delete or ⏪ revert 📦 commits that are no longer necessary
 
-### Creating a linear history
+### 🌴 Creating a linear 📚 history
 
-One of the most common uses of rebase is to eliminate recursive merges and create a more linear history. In this activity, we will learn how it is done.
+One of the most common uses of ♻️ rebase is to eliminate 🔁 recursive 🔗 merges and ✨ create a more linear 📚 history. In this activity, we will learn how it is done.
 
 ![Git Rebase](./img/git-rebase.png)
 
 #### Setup
 
-1. First, switch back to the `main` branch: `git switch main`
-1. Find the SHA of the initial commit: `git log --oneline`
-1. Reset to the SHA of the initial commit: `git reset --hard SHA`
-1. Create a new branch and check out to it: `git switch -c rebase-me`
-1. Cherry-pick files 4-6 onto the `rebase-me` branch using the reflog.
-1. Switch to main: `git switch main`
-1. Cherry-pick files 1-3 onto the `main` branch using the reflog.
-1. Look at your history: `git log --oneline --graph --decorate --all`
-1. If you merged now, it would be a recursive merge.
+1. First, 🔁 switch back to the `main` 🌿 branch: `git 🔁 switch main`
+1. Find the SHA of the initial 📦 commit: `git log --oneline`
+1. Reset to the SHA of the initial 📦 commit: `git reset --hard SHA`
+1. ✨ Create a new 🌿 branch and check out to it: `git 🔁 switch -c ♻️ rebase-me`
+1. 🌿 Cherry-pick 📄 files 4-6 onto the `♻️ rebase-me` 🌿 branch using the reflog.
+1. 🔁 Switch to main: `git switch main`
+1. 🌿 Cherry-pick 📄 files 1-3 onto the `main` 🌿 branch using the reflog.
+1. Look at your 📚 history: `git log --oneline --graph --decorate --all`
+1. If you 🔗 merged now, it would be a 🔁 recursive 🔗 merge.
 
-#### Begin the rebase
+#### Begin the ♻️ rebase
 
-1. Switch to the `rebase-me` branch: `git switch rebase-me`
-1. Start the merge: `git rebase -i main`
-1. Your text editor will open, allowing you to see the commits to be rebased.
-1. Save and close the `rebase-todo`.
-1. Watch your rebase happen on the command-line.
-1. Take another look at your history: `git log --oneline --graph --decorate --all`
-1. If you merged now, it would be a fast-forward merge.
+1. 🔁 Switch to the `♻️ rebase-me` 🌿 branch: `git 🔁 switch ♻️ rebase-me`
+1. Start the 🔗 merge: `git ♻️ rebase -i main`
+1. Your text editor will open, allowing you to see the 📦 commits to be rebased.
+1. Save and close the `♻️ rebase-todo`.
+1. Watch your ♻️ rebase happen on the command-line.
+1. Take another look at your 📚 history: `git log --oneline --graph --decorate --all`
+1. If you 🔗 merged now, it would be a 🚀 fast-forward 🔗 merge.
 
 #### Finish the merge
 

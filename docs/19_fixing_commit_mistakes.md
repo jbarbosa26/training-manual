@@ -1,13 +1,13 @@
-## Fixing commit mistakes
+## 💥 Fixing 📦 commit 💥 mistakes
 
-In this activity, we will begin to explore some ways Git and GitHub can help us shape our project history.
+In this activity, we will begin to explore some ways 🌳 Git and 🐙 GitHub can help us shape our project 📚 history.
 
-### Revising your last commit
+### ✏️ Revising your last 📦 commit
 
-`git commit --amend` allows us to make changes to the commit that HEAD is currently pointing to. Two of the most common uses are:
+`git 📦 commit --amend` allows us to make ⚡ changes to the 📦 commit that HEAD is currently pointing to. Two of the most common uses are:
 
-- Re-writing commit messages
-- Adding files to the commit
+- ✏️ Re-writing 📦 commit messages
+- ➕ Adding 📄 files to the 📦 commit
 
 Let's see this in action:
 

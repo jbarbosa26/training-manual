@@ -1,22 +1,22 @@
-## Getting started with collaboration
+## 🚀 Getting started with collaboration
 
-We will start by introducing you to Git, GitHub, and the collaboration features we will use throughout the class. Even if you have used GitHub in the past, we hope this information will provide a baseline understanding of how to use it to build better software!
+We will start by introducing you to 🌳 Git, 🐙 GitHub, and the 🤝 collaboration features we will use throughout the class. Even if you have used GitHub in the past, we hope this information will provide a baseline understanding of how to use it to build better software!
 
-### What is GitHub?
+### What is 🐙 GitHub?
 
-GitHub is a collaboration platform built on top of a distributed version control system called Git. GitHub is focused on developers, the people who code and create software. Our focus is also the people who partner with and employ developers, who are encouraging them to build amazing things.
+🐙 GitHub is a 🤝 collaboration platform built on top of a 📡 distributed version control system called 🌳 Git. 🐙 GitHub is focused on 👨‍💻 developers, the people who 💾 code and ✨ create 💾 software. Our focus is also the people who partner with and employ developers, who are encouraging them to build amazing things.
 
-We do all we can to help unlock the creativity of developers and to foster a community of developers that can come together—as individuals and in teams—to create the future of software and make a difference in the world.
+We do all we can to help unlock the creativity of 👨‍💻 developers and to foster a 👥 community of 👨‍💻 developers that can come together—as individuals and in 👥 teams—to ✨ create the future of 💾 software and make a difference in the world.
 
 GitHub concentrates on three things:
 
-- Building a technology platform that is like no other, on which developers can create, share and grow the best code possible
-- Nurturing a community for developers; a safe and collaborative place that facilitates sharing, amplifies creativity, and supports the principles of open source
-- Providing access, opening up a community of opportunity, where new developers can be born and where experienced developers can hone their skills and expand their knowledge
+- Building a technology platform that is like no other, on which 👨‍💻 developers can ✨ create, 📤 share and grow the best 💾 code possible
+- Nurturing a 👥 community for 👨‍💻 developers; a safe and 🤝 collaborative place that facilitates 📤 sharing, amplifies creativity, and supports the principles of 📖 open source
+- Providing access, opening up a 👥 community of opportunity, where new 👨‍💻 developers can be born and where experienced 👨‍💻 developers can hone their skills and expand their knowledge
 
 ![GitHub's beloved Octocat logo](./img/github-icon.jpg)
 
-In addition to being a place to host and share your Git projects, GitHub provides a number of features to help you and your team collaborate more effectively. These features include:
+In addition to being a place to host and 📤 share your 🌳 Git projects, 🐙 GitHub provides a number of features to help you and your 👥 team 🤝 collaborate more effectively. These features include:
 
 - Issues
 - Pull Requests
@@ -33,42 +33,42 @@ Rather than force you into a "one size fits all" ecosystem, GitHub strives to be
 
 You may even find some new, indispensable tools to help with continuous integration, dependency management, code quality and much more.
 
-### What is Git?
+### What is 🌳 Git?
 
-**Git is:**
+**🌳 Git is:**
 
-- A distributed version control system (DVCS)
-- Free and open source
+- A 📡 distributed version control system (DVCS)
+- Free and 📖 open source
 - Designed to handle everything from small to very large projects with speed and efficiency
 - Small in size and fast
 
-Git features cheap local branching, convenient staging areas, and multiple workflows.
+🌳 Git features cheap local 🌿 branching, convenient 🎬 staging areas, and multiple workflows.
 
-As we begin to discuss Git (and what makes it special) it would be helpful if you could forget everything you know about other version control systems (VCSs) for just a moment. Git stores and thinks about information very differently than other VCSs.
+As we begin to discuss 🌳 Git (and what makes it special) it would be helpful if you could forget everything you know about other version control systems (VCSs) for just a moment. 🌳 Git stores and thinks about information very differently than other VCSs.
 
-We will learn more about how Git stores your code as we go through this class, but the first thing you will need to understand is how Git works with your content.
+We will learn more about how 🌳 Git stores your 💾 code as we go through this class, but the first thing you will need to understand is how 🌳 Git works with your content.
 
-#### Snapshots, not deltas
+#### 📸 Snapshots, not deltas
 
-One of the first ideas you will need understand is that Git does not store your information as series of changes. Instead, Git takes a snapshot of your repository at a given point in time. This snapshot is called a commit.
+One of the first ideas you will need understand is that 🌳 Git does not store your information as series of ⚡ changes. Instead, 🌳 Git takes a 📸 snapshot of your repository at a given point in time. This 📸 snapshot is called a 📦 commit.
 
-#### Optimized for local operations
+#### ⚡ Optimized for local operations
 
-Git is optimized for local operation. When you clone a copy of a repository to your local machine, you receive a copy of the entire repository and its history. This means you can work on the plane, on the train, or anywhere else your adventures find you!
+🌳 Git is optimized for local operation. When you clone a copy of a repository to your local machine, you receive a copy of the entire repository and its 📚 history. This means you can work on the plane ✈️, on the train 🚂, or anywhere else your adventures find you!
 
-#### Branches are lightweight and cheap
+#### 🌿 Branches are lightweight and cheap
 
-Branches are an essential concept in Git.
+🌿 Branches are an essential concept in 🌳 Git.
 
-When you create a new branch in Git, you are actually just creating a pointer that corresponds to the most recent commit in a line of work. Git keeps the commits for each branch separate until you explicitly tell it to merge those commits into the main line of work.
+When you ✨ create a new 🌿 branch in 🌳 Git, you are actually just creating a pointer that corresponds to the most recent 📦 commit in a line of work. 🌳 Git keeps the 📦 commits for each 🌿 branch separate until you explicitly tell it to 🔗 merge those 📦 commits into the main line of work.
 
-#### Git is explicit
+#### 🤐 🌳 Git is explicit
 
-Which brings us to our final point for now; Git is very explicit. It does not do anything until you tell it to. No auto-saves or auto-syncing with the remote, Git waits for you to tell it when to take a snapshot and when to send that snapshot to the remote.
+Which brings us to our final point for now; 🌳 Git is very explicit. It does not do anything until you tell it to. No auto-saves or auto-syncing with the remote, 🌳 Git waits for you to tell it when to take a 📸 snapshot and when to send that 📸 snapshot to the remote.
 
-### Exploring a GitHub repository
+### 🔍 Exploring a 🐙 GitHub repository
 
-A repository is the most basic element of GitHub. It is easiest to imagine as a project's folder. However, unlike an ordinary folder on your laptop, a GitHub repository offers simple yet powerful tools for collaborating with others.
+A repository is the most basic element of 🐙 GitHub. It is easiest to imagine as a project's folder 📁. However, unlike an ordinary folder on your laptop, a 🐙 GitHub repository offers simple yet powerful tools for 🤝 collaborating with others.
 
 A repository contains all the project files (including documentation), and stores each file's revision history. Whether you are just curious or you are a major contributor, knowing your way around a repository is essential!
 

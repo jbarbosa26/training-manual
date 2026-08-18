@@ -1,25 +1,25 @@
-## Working locally with Git
+## 🎨 Working locally with 🌳 Git
 
-Using the command line, you can easily integrate Git into your current workflow.
+Using the command line, you can easily integrate 🌳 Git into your current workflow.
 
-### Creating a local copy of the repository
+### ✨ Creating a local copy of the repository
 
 ![Cloning a repository](./img/clone-diagram.png)
 
-Before we can work locally, we will need to create a clone of the repository.
+Before we can 🎨 work locally, we will need to ✨ create a 📄 clone of the repository.
 
-When you clone a repository you are creating a copy of everything in that repository, including its history. This is one of the benefits of a DVCS like git - rather than being required to query a slow centralized server to review the commit history, queries are run locally and are lightning fast.
+When you 📄 clone a repository you are ✨ creating a copy of everything in that repository, including its 📚 history. This is one of the benefits of a DVCS like 🌳 git - rather than being required to query a slow centralized server to review the 📦 commit 📚 history, queries are run locally and are lightning ⚡ fast.
 
-Let's go ahead and clone the class repository to your local desktop.
+Let's go ahead and 📄 clone the class repository to your local desktop.
 
-1. Navigate to the **Code** tab of the class repository on GitHub.
-1. Click the green **Code** button.
-1. Copy the **clone URL** to your clipboard.
+1. Navigate to the **💾 Code** tab of the class repository on 🐙 GitHub.
+1. Click the green **💾 Code** button.
+1. Copy the **📄 clone URL** to your clipboard.
 1. Open your command-line application.
-1. Retrieve a full copy of the repository from GitHub: `git clone <CLONE-URL>`
-1. Once the clone is complete, navigate to the new directory created by the clone operation: `cd <REPOSITORY-NAME>`
+1. Retrieve a full copy of the repository from 🐙 GitHub: `🌳 git clone <CLONE-URL>`
+1. Once the 📄 clone is complete, navigate to the new directory ✨ created by the 📄 clone operation: `cd <REPOSITORY-NAME>`
 
-### Our favorite Git command: `git status`
+### 🙋 Our favorite 🌳 Git command: `git status`
 
 ```shell-session
 git status
@@ -28,34 +28,34 @@ Your branch is up-to-date with 'origin/main'.
 nothing to commit, working tree clean
 ```
 
-`git status` is a command to verify the current state of your repository and the files it contains. Right now, we can see that we are on branch main, everything is up-to-date with origin/main and our working tree is clean.
+`git status` is a command to verify the current state of your repository and the 📄 files it contains. Right now, we can see that we are on 🌿 branch main, everything is up-to-date with origin/main and our 🎨 working tree is clean.
 
-### Using branches locally
-
-```sh
-git branch
-```
-
-If you type `git branch` you will see a list of local branches.
+### Using 🌿 branches locally
 
 ```sh
-git branch --all
-git branch -a
+git 🌿 branch
 ```
 
-If you want to see all the branches, including the read-only copies of your remote branches, you can add the `--all` option or just `-a`.
+If you type `git 🌿 branch` you will see a list of local 🌿 branches.
 
-> The `--all` and `-a` are actually synonyms for the branch command. Git often provides a verbose and a short option.
+```sh
+git 🌿 branch --all
+git 🌿 branch -a
+```
 
-### Switching branches
+If you want to see all the 🌿 branches, including the read-only copies of your remote 🌿 branches, you can add the `--all` option or just `-a`.
+
+> The `--all` and `-a` are actually synonyms for the 🌿 branch command. 🌳 Git often provides a verbose and a short option.
+
+### 🔁 Switching 🌿 branches
 
 ```sh
 git switch <BRANCH-NAME>
 ```
 
-To switch the branch you created online, type `git switch` and the name of your branch. Git will provide a message that says you have been switched to the branch, and it has been set up to track the same remote branch from origin.
+To 🔁 switch the 🌿 branch you ✨ created online, type `git switch` and the name of your 🌿 branch. 🌳 Git will provide a message that says you have been 🔁 switched to the 🌿 branch, and it has been set up to track the same remote 🌿 branch from origin.
 
-> You do not need to type `remotes/origin` in front of the branch - only the branch name. Typing `remotes/origin` in front of the branch name will put you in a detached HEAD state. We will learn more about that later, but for now just remember this is not a state we want to be in.
+> You do not need to type `remotes/origin` in front of the 🌿 branch - only the 🌿 branch name. Typing `remotes/origin` in front of the 🌿 branch name will put you in a detached HEAD state. We will learn more about that later, but for now just remember this is not a state we want to be in.
 
 [include](06a_activity_create_file.md ':include')
 

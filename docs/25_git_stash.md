@@ -1,12 +1,12 @@
-## Git stash
+## 🧧 Git stash
 
-Git stash takes the changes you have made to your working tree ("dirty") and puts them in a holding pattern until you are ready to re-apply them, so you have a fresh working directory ("clean").
+🧧 Git stash takes the ⚡ changes you have made to your 🎨 working tree ("dirty") and puts them in a holding pattern until you are ready to re-apply them, so you have a fresh 🎨 working directory ("clean").
 
-Common use cases for using git stash are
+Common use cases for using 🧧 git stash are
 
-- Needing to change focus from the task you are currently working on to a new task
-- Forgetting to switch working branches
-- Needing to apply changes to multiple branches
+- Needing to change focus from the task you are currently 🎨 working on to a new task
+- Forgetting to 🔄 switch 🌿 working 🌿 branches
+- Needing to apply ⚡ changes to multiple 🌿 branches
 
 When these scenarios happen, figuring out what to do with your in-progress work might be difficult. Do you commit it even though it isn't "ready to be committed"? Do you create a new branch with your changes and come back to it? Do you need to delete your changes and just re-create the work when you can come back to this task? Do you manually copy-and-paste the changes across branches?
 

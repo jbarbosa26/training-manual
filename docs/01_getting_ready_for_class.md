@@ -1,32 +1,32 @@
-## Getting ready for class
+## 🚄 Getting ready for class
 
-While you are waiting for class to begin, please take a few minutes to set up your local work environment.
+While you are waiting for class to begin, please take a few minutes to set up your local 💱 work environment.
 
 <!-- toc -->
 
-### Step 1: Set up your GitHub.com account
+### Step 1: Set up your 🐙 GitHub.com account
 
-For this class, we will use a public account on GitHub.com. We do this for a few reasons:
+For this class, we will use a public account on 🐙 GitHub.com. We do this for a few reasons:
 
-- We don't want you to "practice" in repositories that contain real code
+- We don't want you to "practice" in repositories that contain real 💾 code
 - We are going to break some things, so we can teach you how to fix them (therefore, refer to the bullet above)
 
 You can set up your free account by following these steps:
 
-1. Access GitHub.com and click Sign up
+1. Access 🐙 GitHub.com and click Sign up
 1. Choose the free account
-1. You will receive a verification email at the address provided
-1. Click the link to complete the verification process
+1. You will receive a 📧 verification email at the address provided
+1. Click the link to complete the 📧 verification process
 
-If you already have an account, verify that you can visit github.com within your organization's network.
+If you already have an account, verify that you can visit 🐙 github.com within your organization's network.
 
-GitHub is designed to run on the current versions of all major browsers. Take a look at our list of [supported browsers](https://docs.github.com/github/getting-started-with-github/supported-browsers).
+🐙 GitHub is designed to run on the current versions of all major browsers. Take a look at our list of [supported browsers](https://docs.github.com/github/getting-started-with-github/supported-browsers).
 
-### Step 2: Install Git
+### Step 2: Install 🌳 Git
 
-Git is an open source version control application. You will need Git installed for this class.
+🌳 Git is an open source 📡 version control application. You will need 🌳 Git installed for this class.
 
-You may already have Git installed so let's check! Open Terminal if you are on a Mac, or PowerShell if you are on a Windows machine, and type:
+You may already have 🌳 Git installed so let's check! Open Terminal if you are on a Mac, or PowerShell if you are on a Windows machine, and type:
 
 ```sh
 git version
@@ -39,15 +39,15 @@ $ git version
 git version 2.33.1
 ```
 
-In general, we recommend you stay within two minor versions of the [latest version](https://git-scm.com/downloads) of Git. The minor version is the second number in the series `x.x.x`.
+In general, we recommend you stay within two minor versions of the [latest version](https://git-scm.com/downloads) of 🌳 Git. The minor version is the second number in the series `x.x.x`.
 
-We suggest having version [2.29.2](https://github.com/git-for-windows/git/releases/tag/v2.29.2.windows.2) or more recent if you're using Git for Windows or Git Bash.
+We suggest having version [2.29.2](https://github.com/git-for-windows/git/releases/tag/v2.29.2.windows.2) or more recent if you're using 🌳 Git for Windows or 🌳 Git Bash.
 
-#### Downloading and installing Git
+#### Downloading and installing 🌳 Git
 
-If you don't already have Git installed, you can download Git at www.git-scm.com.
+If you don't already have 🌳 Git installed, you can download 🌳 Git at www.git-scm.com.
 
-If you need additional assistance installing Git, you can find more information in [the ProGit chapter on installing Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+If you need additional assistance installing 🌳 Git, you can find more information in [the ProGit chapter on installing 🌳 Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 #### Where is your shell?
 
