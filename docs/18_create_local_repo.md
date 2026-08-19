@@ -3,10 +3,11 @@
 Let's create a local repository that we can use to practice the next set of commands.
 
 1. Navigate to the directory where you will place your practice repo (`cd ..` to get back to the parent folder).
+1. Update your git config to set `main` as the default branch in the case it defaults locally to `master` by running `git config init.defaultBranch main`
 1. Create a new directory and initialize it as a git repository: `git init practice-repo`
 1. CD into your new repository: `cd practice-repo`
 1. Create an empty new file named `README.md`:
-   - Bash: `touch README.md`
+   - Bash: `touch README.md` or `echo > README.md`
    - PowerShell: `Out-File README.md`
 1. Add and commit the README.md file.
 
@@ -17,7 +18,13 @@ Since we will be using this as our practice repository, we need to generate some
 ```bash
 for d in {1..6}; do touch "file${d}.md"; git add "file${d}.md"; git commit -m "adding file ${d}"; done
 ```
-> For anyone seeing an issue running with the `touch` instruction on command prompt, try `echo >` instead.
+> For anyone seeing an issue running with the `touch` instruction, try `echo >` instead.
+
+**CMD:**
+
+```cmd
+for /L %d in (1,1,6) do (echo > file%d.md & git add file%d.md & git commit -m "adding file %d")
+```
 
 **PowerShell:**
 

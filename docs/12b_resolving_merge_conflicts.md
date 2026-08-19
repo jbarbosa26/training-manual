@@ -36,10 +36,9 @@ If it's difficult to practice with a partner, you can do that alone by following
       git pull
       ```
 
-   1. Fetch the `USERNAME-modify-conflict` branch from remote and switch to the same branch locally.
+   1. Switch to the `USERNAME-modify-conflict` locally.
 
       ```sh
-      git fetch
       git switch USER-modify-conflict
       ```
 
@@ -77,5 +76,3 @@ If it's difficult to practice with a partner, you can do that alone by following
       ```
 
 1. Confirm that the merge conflict in the branch titled `USERNAME resolve conflict` was resolved and merge the pull request.
-
-> What is a merge message? In this example, we are doing a recursive merge. A recursive merge creates a new commit that permanently records the point in time when these two branches were merged together. We will talk more about Git merge strategies a little later.
